@@ -8,7 +8,7 @@
 /* ------------ NAVIGATION BAR START ------------*/
 
 .nav-bar {
-    background-color: rgba(255, 255, 255, 0.8);
+    background-color: rgba(255, 255, 255, 0.85);
     position: fixed;
     top: 0;
     right: 0;
@@ -180,12 +180,13 @@ a:visited {
     position: absolute;
     font-weight: 500;
     font-size: 20px;
-    padding-top: 40px;
+    padding-top: 10px;
     width: 150px;
     margin: 0 auto;
-    transform: translate(-265px);
-    opacity: 0;
+    left: 360px;
+    opacity: 1;
     transition: 200ms;
+    
     
 }
 
@@ -204,7 +205,12 @@ a:visited {
     left: 50%;
     transform: translate(-50%, 30px);
     
+    
+    transition: 200ms;
 
+    overflow: hidden;
+
+   
 }
 
     
