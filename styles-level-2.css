@@ -5,11 +5,11 @@
 
 body {
   color: white;
-  background-image: linear-gradient(rgb(60, 60, 60), black);
+  background-image: linear-gradient(rgb(50, 50, 50), black);
 }
 
 .nav-bar {
-    background-color: rgba(20, 20, 20, 0.8);
+    background-color: rgba(30, 30, 30, 0.8);
     color: white;
 }
 

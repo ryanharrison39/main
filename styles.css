@@ -19,6 +19,7 @@
     height: 50px;
     z-index: 4;
     transition: 250ms ease;
+    
 
     
 }
@@ -134,18 +135,7 @@ a:visited {
     z-index: -1;
 }
 
-.nav-current-page-landing {
-    position: absolute;
-    width: 40px;
-    height: 40px;
-    margin: 0 48.2%;
-    color: rgb(27, 134, 255);
-    border-style: solid;
-    border-radius: 200px;
-    border-color: rgb(27, 134, 255);
-    z-index: -1;
-    transform: translate(-8%, -9%);
-}
+
 
 .nav-down-arrow {
     position: absolute;
@@ -181,11 +171,12 @@ a:visited {
     font-weight: 500;
     font-size: 20px;
     padding-top: 10px;
-    width: 150px;
+    width: 250px;
     margin: 0 auto;
     left: 360px;
-    opacity: 1;
     transition: 200ms;
+    opacity: 0;
+
     
     
 }
