@@ -4,10 +4,6 @@
     font-family: "Inter";
 }
 
-body {
-    scrollbar-gutter: stable;
-}
-
 /* ------------ NAVIGATION BAR START ------------*/
 
 .nav-bar {
@@ -29,8 +25,8 @@ body {
 
 
 .nav-bar-container {
-    position: absolute;
-    left: 50%;
+    position: fixed;
+    left: 49.6vw;
     top: 36px;
     transform: translate(-50%, -50%);
     height: 50px;
