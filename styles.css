@@ -2,6 +2,9 @@
 
 * {
     font-family: "Inter";
+}
+
+body {
     scrollbar-gutter: stable;
 }
 
@@ -75,8 +78,11 @@
 
 .nav-bar-text:hover {
     cursor: grab;
-    text-decoration: underline;
 
+}
+
+#nav-overview:hover, #nav-mission:hover {
+    text-decoration: underline;
 }
 
 a {
